@@ -53,18 +53,21 @@ docker build -t <nombre imagen>:<tag> .
 ### Ejecutar el archivo Dockerfile y construir una imagen en la versión 1.0
 No olvides verificar en qué directorio se encuentra el archivo Dockerfile
 ```
+<img width="2526" height="990" alt="image" src="https://github.com/user-attachments/assets/a2397f98-83d3-464a-a881-2dbbe873ff86" />
 
 ```
 
 **¿Cuántos pasos se han ejecutado?**
+5
 # RESPONDER 
 
 ### Inspeccionar la imagen creada
 # COMPLETAR CON UNA CAPTURA
+<img width="933" height="1224" alt="image" src="https://github.com/user-attachments/assets/702139f0-e8ed-4d64-ad64-5c4ced25c31a" />
 
 **Modificar el archivo index.html para incluir su nombre y luego crear una nueva versión de la imagen anterior**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
-
+Fueron los mismos pasos pero en menos tiempo gracias al caché.
 ## Mecanismo de caché
 Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso de construcción y evitar la repetición de pasos que no han cambiado. Cada instrucción en un Dockerfile crea una capa en la imagen final. Docker intenta reutilizar las capas de una construcción anterior si no han cambiado, lo que reduce significativamente el tiempo de construcción.
 
