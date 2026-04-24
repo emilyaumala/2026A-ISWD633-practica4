@@ -11,6 +11,7 @@ Asignar núcleos de CPU específicos:
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
 ## COMPLETAR
+<img width="934" height="192" alt="image" src="https://github.com/user-attachments/assets/28a7c8ca-b172-4eeb-a210-2e4764f01160" />
 
 ## Ejemplos
 _Puedes copiar y ejecutar directamente cada uno de los comandos_
