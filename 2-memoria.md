@@ -27,3 +27,4 @@ docker run -d --name server-nginx --memory=300m --memory-swap=1g nginx:alpine
 ```
 **¿Cuántos megabytes de memoria swap puede utilizar el contenedor creado anteriormente?**
 ## COMPLETAR CON LA RESPUESTA
+Por defecto, si no se especificaron límites de memoria al crear el contenedor con docker run, este no tiene un límite de swap definido, lo que significa que puede utilizar la swap disponible en el sistema anfitrión.
